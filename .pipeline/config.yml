@@ -9,3 +9,4 @@ steps:
       org: 'China_Presales_demo2021'
       space: 'Dev'
       credentialsId: 'demo2021'
+      apiEndpoint: 'https://api.cf.cn40.platform.sapcloud.cn'
