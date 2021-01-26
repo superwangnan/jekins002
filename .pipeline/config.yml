@@ -2,3 +2,10 @@ general:
 steps:
   mtaBuild:
     buildTarget: 'CF'
+  cloudFoundryDeploy:
+    deployTool: 'mtaDeployPlugin'
+    deployType: 'standard'
+    cloudFoundry:
+      org: 'China_Presales_demo2021'
+      space: 'Dev'
+      credentialsId: 'demo2021'
