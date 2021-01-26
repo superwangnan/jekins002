@@ -2,11 +2,18 @@ general:
 steps:
   mtaBuild:
     buildTarget: 'CF'
+  # cloudFoundryDeploy:
+  #   deployTool: 'mtaDeployPlugin'
+  #   deployType: 'standard'
+  #   cloudFoundry:
+  #     org: 'China_Presales_demo2021'
+  #     space: 'Dev'
+  #     credentialsId: 'demo2021'
+  #     apiEndpoint: 'https://api.cf.cn40.platform.sapcloud.cn'
   cloudFoundryDeploy:
     deployTool: 'mtaDeployPlugin'
     deployType: 'standard'
     cloudFoundry:
-      org: 'China_Presales_demo2021'
+      org: 'd0428b5ftrial'
       space: 'Dev'
-      credentialsId: 'demo2021'
-      apiEndpoint: 'https://api.cf.cn40.platform.sapcloud.cn'
+      credentialsId: 'trial'
