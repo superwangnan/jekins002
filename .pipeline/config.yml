@@ -10,6 +10,7 @@ steps:
       space: 'Dev'
       credentialsId: 'demo2021'
       apiEndpoint: 'https://api.cf.cn40.platform.sapcloud.cn'
+      mtaDeployParameters: '-u deploy-service.cfapps.cn40.platform.sapcloud.cn'
   # cloudFoundryDeploy:
   #   deployTool: 'mtaDeployPlugin'
   #   deployType: 'standard'
